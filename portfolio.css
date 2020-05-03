@@ -1,0 +1,60 @@
+.special {
+    border-right: 3px double darkblue;
+    margin-left: 20px !important;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px !important;
+}
+
+h3 {
+    border-bottom: 2px solid darkblue;
+    color: darkblue;
+    margin-top: 20px !important;
+    margin-left: 10px !important;
+    font-size: 1.5rem !important;
+}
+
+p strong {
+    color: darkblue;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+td p {
+    margin-left: 10px;
+}
+
+td strong {
+    color: darkblue;
+}
+
+ul > li > strong {
+    font-size: 14px;
+    color: #0E76A8;
+}
+
+.year {
+    text-align: center;
+}
+
+body {
+    /* The image used */
+    background-image: url("resume-background.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > div:nth-child(2) > table > tbody > tr:nth-child(1) > td:nth-child(2) {
+    padding-left: 80px;
+}
