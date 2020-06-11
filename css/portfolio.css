@@ -45,7 +45,7 @@ ul > li > strong {
 
 body {
     /* The image used */
-    background-image: url("resume-background.jpg");
+    background-image: url("../static/resume-background.jpg");
     /* Full height */
     height: 100%;
 

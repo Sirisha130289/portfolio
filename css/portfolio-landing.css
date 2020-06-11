@@ -1,0 +1,75 @@
+body {
+    /* The image used */
+    background-image: url("../static/Java_Background_Black.jpg");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex.row {
+    flex-direction: row;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+}
+
+.btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+}
+
+.btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+}
+
+#home {
+    height: 100%;
+}
+
+.text {
+    margin: 20px;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+}
+
+.linked-in {
+    float: right;
+    margin: 20px 20px 0px 0px;
+}
+
+.highlight {
+    color: #e31b6d;
+}
